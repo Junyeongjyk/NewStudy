@@ -1,0 +1,8 @@
+/* Header */
+header { width: 100%; position: fixed; left: 0; top: 0; padding: 30px 60px; box-sizing: border-box;  display: flex; justify-content: space-between;transition: 0.3s; background: rgba(0, 0, 0, 0.5); z-index: 100;}
+header.active {transform: translateY(-100%)}
+header .logo {color: #fff}
+header .menu {display: none} 
+.gnb ul {display: flex; justify-content: space-between;}
+.gnb ul li {margin-left: 70px}
+.gnb ul li a {display: block; position: relative;}
